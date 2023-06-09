@@ -1,0 +1,43 @@
+Hi Chiro !
+
+  Hope you are doing fine, this is Shailesh from metis and I got your CV from our team member, I would like you to do the following test inorder to analyze your skills.
+
+1. This Test contains input programs related to Speck Encryption and Decryption algorithm which is converted from C to MIPS program and is attached with this email.
+
+2. You need to build a StarkVM machine that will accept the attached mips program and also input value to the mips program is available in auxiliary tape.
+
+3. You can use libSTARK C++ : https://github.com/LayerXcom/libSTARK for early completion of this test as I need you to complete as fast as possible so this repo is optional for you to use but only thing i would need is whichever library you are using i need this test to be completed in Rust and (C++ or  C) language.
+
+4. I would like you to generate a STARK based Algebraic Execution table (AET) from the input program which needs to have input table, processor table, jump stack table, output table, instruction table and memory table which will record the states of each execution that's happening like as follows :
+
+     a. The processor table proves that each instruction transforms the state as defined in the VM.
+     b. The memory table proves that memory values are consistent, for example that all memory values are initialized to zero and that when a memory value is accessed again, it has not changed since the last cycle in which this memory value was accessed.
+     c. The instruction table guarantees that the expected program is read into the instruction registers
+     d. The input table proves that the correct values are read into memory.
+     e. The output table proves that the program writes the correct values to output.
+
+
+Thanks,
+Shailesh.
+
+嗨，Chiro !
+
+  希望你做得很好，我是metis的Shailesh，我从我们的团队成员那里得到了你的简历，我想让你做以下测试，以分析你的技能。
+
+1. 这个测试包含与Speck加密和解密算法有关的输入程序，这些程序是由C语言转换为MIPS程序，并附在这封邮件中。
+
+2. 你需要建立一个StarkVM机器，该机器将接受所附的MIPS程序，而且MIPS程序的输入值也可在辅助磁带中找到。
+
+3. 你可以使用libSTARK C++：https://github.com/LayerXcom/libSTARK，以便尽早完成这个测试，因为我需要你尽快完成，所以这个repo对你来说是可选的，但我唯一需要的是无论你使用哪个库，我都需要这个测试以Rust和（C++或C）语言完成。
+
+4. 我希望你能从输入的程序中生成一个基于STARK的代数执行表（AET），该表需要有输入表、处理器表、跳转堆栈表、输出表、指令表和内存表，这将记录每个正在发生的执行状态，如下所示：
+
+     a. 处理器表证明每条指令都会改变虚拟机中定义的状态。
+     b. 内存表证明内存值是一致的，例如，所有的内存值都被初始化为零，当一个内存值被再次访问时，自上一次访问该内存值的周期以来，它没有变化。
+     c. 指令表保证预期的程序被读入指令寄存器中
+     d. 输入表证明了正确的数值被读入内存。
+     e. 输出表证明了程序将正确的值写入输出。
+
+
+谢谢、
+Shailesh.
